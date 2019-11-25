@@ -20,4 +20,33 @@
     <string name="punto">.</string>
     <string name="cerrarPa">)</string>
     <string name="abrirPa">(</string>
+
+    <!-- Datos personales -->
+    <string name="nombre">Marlon Josué Márquez Cano</string>
+    <string name="codigo">MC16-I04-002</string>
+    <string name="tituloDatos">Mis datos</string>
+    <string name="anio">Laboratorio DM-16</string>
+    <string name="datos_personales">Datos personales</string>
+    <string name="usar_la_calculadora">Usar la calculadora</string>
+
+    <!--    <string name="ac">AC</string>
+    <string name="del">DEL</string>
+    <string name="mas">+</string>
+    <string name="menos">-</string>-->
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="division">/</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <!--    <string name="por">*</string>-->
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <!--    <string name="igual">=</string>-->
+    <string name="cero">0</string>
+    <string name="parenIzqui">(</string>
+    <string name="parenDere">)</string>
+    <!--       <string name="punto">.</string>-->
 </resources>

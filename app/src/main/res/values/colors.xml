@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#03A9F4</color>
-    <color name="colorPrimaryDark">#2196F3</color>
-    <color name="colorAccent">#CDDC39</color>
+    <color name="colorPrimary">#2369A0</color>
+    <color name="colorPrimaryDark">#1a517a</color>
+    <color name="colorAccent">#D52316</color>
+    <color name="CiColorTur1">#1A518F</color>
+    <color name="CiColorRed1">#7d2724</color>
+    <color name="CiColorGray1">#afb6ba</color>
+    <color name="CiColorGrayLigth">#E2E2E2</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000</color>
+    <color name="ElegantWhite">#DAFCFCFF</color>
+    <color name="ElegantBlack">#131010</color>
+    <color name="Boos_Warning">#FFBB33</color>
+    <color name="Boos_Warning_Dark">#FF8800</color>
+    <color name="Boos_Danger">#FF4444</color>
+    <color name="Boos_Danger_Dark">#CC0000</color>
+    <color name="Boos_Success">#00cc51</color>
+    <color name="Boos_Success_Dark">#007E33</color>
+    <color name="Boos_info">#33B5E5</color>
+    <color name="Boos_info_Dark">#0099CC</color>
+    <color name="mayor">#FD0000</color>
+    <color name="menor">#3F0472</color>
 </resources>

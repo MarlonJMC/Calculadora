@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    tools:context=".FirebaseLabelTU">
+
+    <com.wonderkiln.camerakit.CameraView
+        android:id="@+id/camera_view"
+        android:layout_weight="0.85"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+    </com.wonderkiln.camerakit.CameraView>
+
+
+    <LinearLayout
+        android:layout_weight="0.15"
+        android:id="@+id/laInferior"
+        android:textColor="@color/White"
+        android:orientation="horizontal"
+        android:background="@color/CiColorGrayLigth"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:weightSum="1"
+        android:layout_height="0dp">
+        <!--        <Button
+                    android:gravity="center"
+                    android:background="@drawable/buttonstyle"
+                    android:backgroundTint="@color/lighter_grey"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:text="Capturar"
+                    android:textStyle="bold"
+                    android:elevation="5dp"
+                    android:layout_height="wrap_content"/>-->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animacion1"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            app:lottie_fileName="4571takephoto.json"
+            android:layout_height="match_parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:id="@+id/btnDetectar"
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:textColor="@color/White"
+            android:backgroundTint="@color/colorPrimary"
+            android:background="@drawable/buttonstyle"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Capturar" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animacion2"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_fileName="4345singletapmobilegesture.json"
+            android:layout_height="match_parent"
+            tools:ignore="NestedWeights" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
